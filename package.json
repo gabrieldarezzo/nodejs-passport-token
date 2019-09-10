@@ -1,0 +1,26 @@
+{
+  "name": "token_auth_passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-node": "^0.1.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.13.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
