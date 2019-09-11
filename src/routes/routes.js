@@ -1,6 +1,4 @@
-const express = require('express');
-
-module.exports = (app) => {
-    app.use('/main', require('./main'));
-    app.use('/users', require('./users'));
+module.exports = (app, passport) => {
+    app.use('/', require('./main')(passport));
+    // app.use('/users', require('./users')(passport));
 };
