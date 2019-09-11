@@ -1,10 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const passport = require('passport');
 
 const app = express();
+require('./routes/users/auth')(passport);
 
 
 app.use(express.json());
+
+app.use(passport.initialize());
 require('./routes/routes')(app);
 
 
