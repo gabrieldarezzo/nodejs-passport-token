@@ -10,4 +10,3 @@ module.exports = (passport) => {
 
     return router;
 };
-module.exports = router;
