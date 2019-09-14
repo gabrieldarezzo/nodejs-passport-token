@@ -21,6 +21,7 @@ E o Mongo, você tem as opções:
 Baixe o projeto:
 ```bash
 git clone https://github.com/gabrieldarezzo/nodejs-passport-token.git
+cd nodejs-passport-token
 npm install 
 ```
 
