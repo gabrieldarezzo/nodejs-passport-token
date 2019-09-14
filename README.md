@@ -1,4 +1,4 @@
--> # Nodejs-passport-token
+# Nodejs-passport-token
 
 Necessario ter:  
 * [Npm / Node](https://nodejs.org/en/download/)  
