@@ -1,5 +1,11 @@
 # Nodejs-passport-token
 
+Praticando em NodeJs:
+* Criação de rotas   
+* Controllers  
+* Autenticação e criação de JWT (Passaport)   
+* MongoDb   
+  
 Necessario ter:  
 * [Npm / Node](https://nodejs.org/en/download/)  
 * [Git](https://git-scm.com/downloads)  
